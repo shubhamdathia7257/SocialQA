@@ -1,7 +1,7 @@
 {
-  "name": "quora-clone-2",
-  "version": "1.1.0",
-  "description": "\"Fully responsive quora clone\"",
+  "name": "SocialQA",
+  "version": "1.0.0",
+  "description": "\"Fully responsive Question Answer Website\"",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +10,8 @@
     "server": "nodemon backend/server",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Code-With-Akky/quora-client.git"
-  },
   "author": "Code with akky",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Code-With-Akky/quora-client/issues"
-  },
-  "homepage": "https://github.com/Code-With-Akky/quora-client#readme",
+  "license": "ISC",
   "dependencies": {
     "@sweetalert2/theme-dark": "^5.0.5",
     "axios": "^0.21.4",
